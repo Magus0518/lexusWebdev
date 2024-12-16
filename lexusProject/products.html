@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products/Services - Campus Store</title>
+    <style>
+        /* Reuse the same CSS styles from the previous template */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0073e6, #b3d9ff);
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            background: #005bb5;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .menu a:hover {
+            background: #003d80;
+            transform: scale(1.05);
+        }
+        .content {
+            text-align: center;
+        }
+        .content h1 {
+            margin: 20px 0;
+            font-size: 2.8em;
+            color: #005bb5;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .column {
+            width: 45%;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .column h2 {
+            font-size: 1.8em;
+            color: #0073e6;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        .column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .column ul li {
+            margin: 8px 0;
+            color: #333;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="project.html">Homepage</a>
+            <a href="products.html">Product/Services</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="content">
+            <h1>Our Products & Services</h1>
+            <div class="columns">
+                <div class="column">
+                    <h2>Featured Products</h2>
+                    <ul>
+                        <li>Textbooks</li>
+                        <li>Wireless Headphones</li>
+                        <li>College Merchandise</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>Our Services</h2>
+                    <ul>
+                        <li>Textbook Rentals</li>
+                        <li>Tech Gadgets & Accessories</li>
+                        <li>Student Apparel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
